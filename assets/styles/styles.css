@@ -1,0 +1,80 @@
+body,
+html {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.title {}
+
+.main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.in-data {
+    width: 90%;
+    height: 24px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px gray solid;
+    border-radius: 5px;
+    color: rgb(103, 101, 101);
+    box-sizing: content-box;
+}
+
+.in-data:focus {
+    background: rgb(240, 239, 239);
+    transition-duration: 0.4s;
+}
+
+.out-data {
+    width: 50%;
+    margin: 5px;
+    height: 22px;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    color: gray;
+}
+
+.button {
+    width: 90%;
+    height: 30px;
+    margin: 5px 0 0 0;
+    border-radius: 5px;
+    border: 1px gray solid;
+    background-color: rgb(169, 167, 167);
+    box-sizing: content-box;
+}
+
+.button:hover {
+    background: rgb(203, 202, 202);
+    transition-duration: 0.4s;
+}
+
+.button:active {
+    background: rgb(181, 174, 174);
+    transition-duration: 0.4s;
+}
+
+.err-block {
+    border: 1px pink solid;
+    color: palevioletred;
+    border-radius: 5px;
+    width: 90%;
+    box-sizing: content-box;
+    margin: 10px 0 0 0;
+    height: auto;
+    font-size: 18px;
+    padding: 5px;
+}
